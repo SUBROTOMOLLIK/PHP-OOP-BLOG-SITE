@@ -14,7 +14,7 @@
     
             <li><a href="#">
                 <h5><?php echo $get_post['post_title'];?></h5>
-                <span>May 31, 2020</span>
+                <span><?php echo $get_post['post_date'];?></span>
             </a></li>
 
             <?php

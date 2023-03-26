@@ -28,7 +28,7 @@
                 
                     ?></span>
                 </div>
-                <a href="#"><h4><?php echo $get_post['post_title'];?></h4></a>
+                <a href="post-details.php?id=<?php echo $get_post['id'];?>"><h4><?php echo $get_post['post_title'];?></h4></a>
                 <ul class="post-info">
                   <li><a href="#"><?php echo $get_post['post_user'];?></a></li>
                   <li><a href="#"><?php echo $get_post['post_date'];?></a></li>
