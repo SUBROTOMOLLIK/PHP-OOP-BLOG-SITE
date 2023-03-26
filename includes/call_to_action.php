@@ -5,12 +5,12 @@
             <div class="main-content">
               <div class="row">
                 <div class="col-lg-8">
-                  <span>Stand Blog HTML5 Template</span>
-                  <h4>Creative HTML Template For Bloggers!</h4>
+                  <span>Join With Us</span>
+                  <h4>Follow Our Facebook Page</h4>
                 </div>
                 <div class="col-lg-4">
                   <div class="main-button">
-                    <a rel="nofollow" href="index.php" target="_parent">Download Now!</a>
+                    <a rel="nofollow" href="" target="_blank">follow Now!</a>
                   </div>
                 </div>
               </div>

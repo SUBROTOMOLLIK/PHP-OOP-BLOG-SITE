@@ -12,7 +12,7 @@
                     foreach ($post_data as $get_post){?>
         
     
-            <li><a href="#">
+            <li><a href="post-details.php?id=<?php echo $get_post['id'];?>">
                 <h5><?php echo $get_post['post_title'];?></h5>
                 <span><?php echo $get_post['post_date'];?></span>
             </a></li>

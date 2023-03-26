@@ -9,7 +9,7 @@
                     foreach ($post_data as $get_post){?>
         
     
-        <div class="item">
+          <div class="item">
             <img src="upload/<?php echo $get_post['post_img'];?>" class="img-fluid" alt="">
             <div class="item-content">
               <div class="main-content">

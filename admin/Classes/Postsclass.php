@@ -29,7 +29,7 @@ class Posts extends Config{
 
    // show posts
    public function show_pots(){
-      return $this->conn->query(" SELECT `id`, `post_img`, `post_title`, `post_cat`, `post_user`, `post_summery`, `post_desc`, date_format(post_date, '%M %d, %Y') as post_date, `post_tag`, `post_status` FROM `tbl_posts` ");
+      return $this->conn->query(" SELECT `id`, `post_img`, `post_title`, `post_cat`, `post_user`, `post_summery`, `post_desc`, date_format(post_date, '%M %d, %Y') as post_date, `post_tag`, `post_status` FROM `tbl_posts` ORDER BY `id` DESC ");
    }
 
    // edit posts
@@ -93,6 +93,12 @@ class Posts extends Config{
       <script>window.location.replace("manage_post.php")</script>
       <?php
       }
+   }
+
+   // single post 
+
+   public function single_post($post_id){
+      return $this->conn->query(" SELECT `id`, `post_img`, `post_title`, `post_cat`, `post_user`, `post_summery`, `post_desc`, date_format(post_date, '%M %d, %Y') as post_date, `post_tag`, `post_status` FROM `tbl_posts` WHERE `id`= '$post_id'");
    }
 
 
